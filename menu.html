@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="Icon\favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anek+Latin&family=Mukta&family=Noto+Sans&family=Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <title>Peeps Food</title>
+</head>
+
+<body>
+
+  <!-- Header Container-->
+  <div class="container">
+
+    <!-- Navigation Bar-->
+    <nav class="clip navbar navbar fixed-top navbar-expand-sm navbar-dark py-4" style="background-color: #52057B;">
+
+      <a class="navbar-brand" href="index.html">
+        <img src="Images\Logo.png" alt="Peeps Logo" width="45" height="45" class="d-inline-block align-text-top">
+        PEEPS Food
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id=navbarNavDropdown>
+        <ul class="navbar-nav ms-auto justify-content-end">
+
+          <!-- Menu Normal Items-->
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <!-- Menu Drop down to complete-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="menu.html">Full Menu</a></li>
+              <li><a class="dropdown-item" href="menu.html#hotPlates">Hotplates</a></li>
+              <li><a class="dropdown-item" href="menu.html#wraps">Wraps</a></li>
+              <li><a class="dropdown-item" href="menu.html#breakfast">Breakfast</a></li>
+              <li><a class="dropdown-item" href="menu.html#drinks">Drinks</a></li>
+            </ul>
+          </li>
+
+          <!-- Menu Normal Items-->
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact-us.html">Contact Us</a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+
+  <!-- Pushing other items down-->
+  <div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+
+  <!-- Menu Top Listing Name-->
+  <h1 class="display-1 text-center">Menu</h1>
+
+  <!-- Anchor Hotplates-->
+  <div>
+    <a id="hotPlates"></a>
+  </div>
+
+  <!-- Menu Listing Hotplates-->
+  <h1 class="display-3 text-left menuLabel">Hotplates:</h1>
+
+  <!-- Card Hotplates -->
+  <div class="card-group">
+
+    <!-- Item 1-->
+    <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
+      <div class="card-header heading-lg">
+        Festa Fries
+      </div>
+      <img src="Images\FestaFries.JPG" class="card-img-top DeliveryCar" alt="Festa Fries Image">
+      <div class="card-body">
+
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h5 class="heading-lg">R 65</h5>
+          </li>
+          <li class="list-group-item">
+            <p class="card-text">crispy chips topped with succulent pulled chicken and signature sauce</p>
+          </li>
+        </ul>
+
+
+      </div>
+
+    </div>
+
+    <!-- Item 2-->
+    <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
+      <div class="card-header heading-lg">
+        Pulled Chicken + Spicy Rice
+      </div>
+      <img src="Images\RiceAndChicken.jpeg" class="card-img-top Catering" alt="...">
+      <div class="card-body">
+
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h5 class="heading-lg">R x</h5>
+          </li>
+          <li class="list-group-item">
+            <p class="card-text">Tender pulled chicken on a bed of fluffy rice</p>
+
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+
+    <!-- Item 3-->
+    <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
+      <div class="card-header heading-lg">
+        Quarter
+      </div>
+      <img src="Images\QuarterChicken.jpg" class="card-img-top FoodTrailer" alt="...">
+      <div class="card-body">
+
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h5 class="heading-lg">R x</h5>
+          </li>
+          <li class="list-group-item">
+            <p class="card-text">Quarter Chicken grilled to perfection served with a side of Pap</p>
+          </li>
+        </ul>
+
+
+      </div>
+
+    </div>
+
+    <!-- Item 4
+
+    <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
+      <div class="card-header heading-lg">
+        Item 4
+      </div>
+      <img src="Images\FoodSubscription.png" class="card-img-top FoodSubscription" alt="...">
+      <div class="card-body">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h5 class="heading-lg">R x</h5>
+          </li>
+          <li class="list-group-item">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+
+    -->
+
+  </div>
+
+  <!-- Wraps Anchor-->
+  <div>
+    <a id="wraps"></a>
+  </div>
+
+  <!-- Menu Listing Wraps-->
+  <h1 class="display-3 text-left menuLabel">Wraps:</h1>
+
+  <!-- Card Wraps -->
+  <div class="card-group">
+
+    <!-- Item 1-->
+    <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
+      <div class="card-header heading-lg">
+        BBQ Chicken Wrap
+      </div>
+      <img src="Images\BBQ-Chicken.jpg" class="card-img-top DeliveryCar" alt="...">
+      <div class="card-body">
+
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h5 class="heading-lg">R x</h5>
+          </li>
+          <li class="list-group-item">
+            <p class="card-text">BBQ Chicken with carrots, diced onions and crispy lettuce wrapped in soft Tortilla</p>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+    <!-- Item 2-->
+    <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
+      <div class="card-header heading-lg">
+        Chicken Avo Wrap
+      </div>
+      <img src="Images\Chicken-Avo.jpg" class="card-img-top Catering" alt="Chicken Avo Wrap">
+      <div class="card-body">
+
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h5 class="heading-lg">R x</h5>
+          </li>
+          <li class="list-group-item">
+            <p class="card-text">Chicken and Avocado with cucumber and crispy lettuce wrapped in a soft Tortilla</p>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+    <!-- Item 3-->
+    <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
+      <div class="card-header heading-lg">
+        Beef Wrap
+      </div>
+      <img src="Images\Beef-Wraps.jpg" class="card-img-top FoodTrailer" alt="...">
+      <div class="card-body">
+
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h5 class="heading-lg">R x</h5>
+          </li>
+          <li class="list-group-item">
+            <p class="card-text">Beef complemented with tomato and lettuce wrapped in a soft Tortilla</p>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+    <!-- Item 4 -->
+    <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
+      <div class="card-header heading-lg">
+        Spicy Chicken Slider
+      </div>
+      <img src="Images\Slider.jpg" class="card-img-top FoodSubscription" alt="Slider Image">
+      <div class="card-body">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h5 class="heading-lg">R x</h5>
+          </li>
+          <li class="list-group-item">
+            <p class="card-text">Spicy buttermilk fried chicken with a toasty Bun</p>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Breakfast Anchor-->
+  <div>
+    <a id="breakfast"></a>
+  </div>
+
+  <!-- Menu Listing Breakfast-->
+  <h1 class="display-3 text-left menuLabel">Breakfast:</h1>
+
+  <!-- Card Breakfast -->
+  <div class="card-group">
+
+    <!-- Item 1-->
+    <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
+      <div class="card-header heading-lg">
+        Brekkie Pot
+      </div>
+      <img src="Images\YGhurtPot.JPG" class="card-img-top DeliveryCar" alt="...">
+      <div class="card-body">
+
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h5 class="heading-lg">R x</h5>
+          </li>
+          <li class="list-group-item">
+            <p class="card-text">Yoghurt, fruits and granola layered. The perfect way to start your day!</p>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+    <!-- Item 2-->
+    <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
+      <div class="card-header heading-lg">
+        Pancakes
+      </div>
+      <img src="Images\Pancakes.JPG" class="card-img-top Catering" alt="...">
+      <div class="card-body">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h5 class="heading-lg">R x</h5>
+          </li>
+          <li class="list-group-item">
+            <p class="card-text">Pancakes topped with Ice Cream and Blue Berries</p>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+    <!-- Item 3-->
+    <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
+      <div class="card-header heading-lg">
+        Toastie Omlette
+      </div>
+      <img src="Images\Toastie-Omlette.jpg" class="card-img-top FoodTrailer" alt="...">
+      <div class="card-body">
+
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h5 class="heading-lg">R x</h5>
+          </li>
+          <li class="list-group-item">
+            <p class="card-text">Toastie Omlette finished with Peppers and Bacon bits</p>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+    <!-- Item 4
+    <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
+      <div class="card-header heading-lg">
+        Item 4
+      </div>
+      <img src="Images\FoodSubscription.png" class="card-img-top FoodSubscription" alt="...">
+      <div class="card-body">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h5 class="heading-lg">R x</h5>
+          </li>
+          <li class="list-group-item">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+-->
+
+
+  </div>
+
+  <!-- Drinks Anchor-->
+  <div>
+    <a id="drinks"></a>
+  </div>
+
+  <!-- Menu Listing Drinks-->
+  <h1 class="display-3 text-left menuLabel">Drinks:</h1>
+
+  <!-- Card Group Drinks-->
+  <div class="card-group">
+
+    <!-- Item 1-->
+    <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
+      <div class="card-header heading-lg">
+        Gemere
+      </div>
+      <img src="Images\bottle.png" style="background-color: #BC6FF1;" class="card-img-top DeliveryCar" alt="Bottle Image">
+      <div class="card-body">
+
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h5 class="heading-lg">Size Dependent</h5>
+          </li>
+          <li class="list-group-item">
+            <p class="card-text">Small R8</p>
+            <p class="card-text">Medium R10</p>
+            <p class="card-text">Glass Bottle Large R30</p>
+          </li>
+        </ul>
+
+
+      </div>
+
+    </div>
+
+    <!-- Item 2
+    <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
+      <div class="card-header heading-lg">
+        Item 2
+      </div>
+      <img src="Images\Catering.png" class="card-img-top Catering" alt="...">
+      <div class="card-body">
+
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h5 class="heading-lg">R x</h5>
+          </li>
+          <li class="list-group-item">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+    -->
+
+    <!-- Item 3
+    <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
+      <div class="card-header heading-lg">
+        Item 3
+      </div>
+      <img src="Images\FoodTrailer.png" class="card-img-top FoodTrailer" alt="...">
+      <div class="card-body">
+
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h5 class="heading-lg">R x</h5>
+          </li>
+          <li class="list-group-item">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </li>
+        </ul>
+
+
+      </div>
+
+    </div>
+-->
+
+    <!-- Item 4
+    <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
+      <div class="card-header heading-lg">
+        Item 4
+      </div>
+      <img src="Images\FoodSubscription.png" class="card-img-top FoodSubscription" alt="...">
+      <div class="card-body">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <h5 class="heading-lg">R x</h5>
+          </li>
+          <li class="list-group-item">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </li>
+        </ul>
+
+
+      </div>
+    </div>
+-->
+
+  </div>
+
+
+  <!-- Break between Form and Footer -->
+  <div>
+    <br>
+    <br>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span class="heading-lg">Join the Peeps on the socials!</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div class="col-md-6 text-Right">
+        <a href="https://www.instagram.com/peeps__sa/" style="margin-Right:30px;" class="btn btn-dark" tabindex="-1" role="button" aria-disabled="true">Instagram</a>
+        <a href="https://www.facebook.com/" class="btn btn-dark" tabindex="-1" role="button" aria-disabled="true">Facebook</a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4" style="color:#52057B;">
+              Peeps Food
+            </h6>
+            <p>
+              The Peoples Food
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Menu
+            </h6>
+            <p>
+              <a href="menu.html#hotPlates" class="text-reset">Hotplates</a>
+            </p>
+            <p>
+              <a href="menu.html#breakfast" class="text-reset">Breakfast</a>
+            </p>
+            <p>
+              <a href="menu.html#wraps" class="text-reset">Wraps</a>
+            </p>
+            <p>
+              <a href="menu.html#drinks" class="text-reset">Drinks</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4" style="color:#52057B;">
+              Useful links
+            </h6>
+            <p>
+              <a href="services.html#delivery" class="text-reset">Delivery</a>
+            </p>
+            <p>
+              <a href="services.html#catering" class="text-reset">Catering</a>
+            </p>
+            <p>
+              <a href="services.html#foodTruck" class="text-reset">Food Truck</a>
+            </p>
+            <p>
+              <a href="services.html#foodSubscription" class="text-reset">Food Subscription</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact Us
+            </h6>
+            <div class="mapouter">
+              <div class="gmap_canvas"><iframe width="300" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=Johanesburg&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                  href="https://putlocker-is.org"></a><br>
+                <style>
+                  .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 200px;
+                    width: 300px;
+                  }
+                </style><a href="https://www.embedgooglemap.net">using google map on website</a>
+                <style>
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 200px;
+                    width: 300px;
+                  }
+                </style>
+              </div>
+            </div>
+            <a href="mailto:cashmoneytebza@gmail.com">Email: cashmoneytebza@gmail.com</a>
+            <p><a href="tel:0763346792">Call us on 076 334 6792</a></p>
+            <p>Monday - Friday: 8am - 5pm</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: #BC6FF1;">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="index.html">PEEPS FOOD, </a>
+      <a class="text-reset fw-bold" href="https://sfheadshot.github.io/cv/">SFHeadshot</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</body>
+
+</html>
