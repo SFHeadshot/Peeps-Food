@@ -12,6 +12,9 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   <title>Peeps Food</title>
 </head>
 
@@ -85,79 +88,81 @@
     <a id="hotPlates"></a>
   </div>
 
-  <!-- Menu Listing Hotplates-->
-  <h1 class="display-3 text-left menuLabel">Hotplates:</h1>
-
   <!-- Card Hotplates -->
-  <div class="card-group">
+  <div data-aos="fade-up" data-aos-duration="2000">
 
-    <!-- Item 1-->
-    <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
-      <div class="card-header heading-lg">
-        Festa Fries
-      </div>
-      <img src="Images\FestaFries.JPG" class="card-img-top DeliveryCar" alt="Festa Fries Image">
-      <div class="card-body">
+    <!-- Menu Listing Hotplates-->
+    <h1 class="display-3 text-left menuLabel">Hotplates:</h1>
 
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">
-            <h5 class="heading-lg">R 65</h5>
-          </li>
-          <li class="list-group-item">
-            <p class="card-text">crispy chips topped with succulent pulled chicken and signature sauce</p>
-          </li>
-        </ul>
+    <div class="card-group">
 
+      <!-- Item 1-->
+      <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
+        <div class="card-header heading-lg">
+          Festa Fries
+        </div>
+        <img src="Images\FestaFries.JPG" class="card-img-top DeliveryCar" alt="Festa Fries Image">
+        <div class="card-body">
 
-      </div>
-
-    </div>
-
-    <!-- Item 2-->
-    <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
-      <div class="card-header heading-lg">
-        Pulled Chicken + Spicy Rice
-      </div>
-      <img src="Images\RiceAndChicken.jpeg" class="card-img-top Catering" alt="...">
-      <div class="card-body">
-
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">
-            <h5 class="heading-lg">R x</h5>
-          </li>
-          <li class="list-group-item">
-            <p class="card-text">Tender pulled chicken on a bed of fluffy rice</p>
-
-          </li>
-        </ul>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h5 class="heading-lg">R 65</h5>
+            </li>
+            <li class="list-group-item">
+              <p class="card-text">crispy chips topped with succulent pulled chicken and signature sauce</p>
+            </li>
+          </ul>
 
 
-      </div>
-    </div>
-
-    <!-- Item 3-->
-    <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
-      <div class="card-header heading-lg">
-        Quarter
-      </div>
-      <img src="Images\QuarterChicken.jpg" class="card-img-top FoodTrailer" alt="...">
-      <div class="card-body">
-
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">
-            <h5 class="heading-lg">R x</h5>
-          </li>
-          <li class="list-group-item">
-            <p class="card-text">Quarter Chicken grilled to perfection served with a side of Pap</p>
-          </li>
-        </ul>
-
+        </div>
 
       </div>
 
-    </div>
+      <!-- Item 2-->
+      <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
+        <div class="card-header heading-lg">
+          Pulled Chicken + Spicy Rice
+        </div>
+        <img src="Images\RiceAndChicken.jpeg" class="card-img-top Catering" alt="Rice and Chicken Image">
+        <div class="card-body">
 
-    <!-- Item 4
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h5 class="heading-lg">R x</h5>
+            </li>
+            <li class="list-group-item">
+              <p class="card-text">Tender pulled chicken on a bed of fluffy rice</p>
+
+            </li>
+          </ul>
+
+
+        </div>
+      </div>
+
+      <!-- Item 3-->
+      <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
+        <div class="card-header heading-lg">
+          Quarter
+        </div>
+        <img src="Images\QuarterChicken.jpg" class="card-img-top FoodTrailer" alt="Quarter Chicken Image">
+        <div class="card-body">
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h5 class="heading-lg">R x</h5>
+            </li>
+            <li class="list-group-item">
+              <p class="card-text">Quarter Chicken grilled to perfection served with a side of Pap</p>
+            </li>
+          </ul>
+
+
+        </div>
+
+      </div>
+
+      <!-- Item 4
 
     <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
       <div class="card-header heading-lg">
@@ -180,6 +185,8 @@
 
     -->
 
+    </div>
+
   </div>
 
   <!-- Wraps Anchor-->
@@ -187,89 +194,94 @@
     <a id="wraps"></a>
   </div>
 
-  <!-- Menu Listing Wraps-->
-  <h1 class="display-3 text-left menuLabel">Wraps:</h1>
 
   <!-- Card Wraps -->
-  <div class="card-group">
+  <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
 
-    <!-- Item 1-->
-    <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
-      <div class="card-header heading-lg">
-        BBQ Chicken Wrap
+    <!-- Menu Listing Wraps-->
+    <h1 class="display-3 text-left menuLabel">Wraps:</h1>
+
+    <div class="card-group">
+
+      <!-- Item 1-->
+      <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
+        <div class="card-header heading-lg">
+          BBQ Chicken Wrap
+        </div>
+        <img src="Images\BBQ-Chicken.jpg" class="card-img-top DeliveryCar" alt="BBQ Chicken Image">
+        <div class="card-body">
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h5 class="heading-lg">R x</h5>
+            </li>
+            <li class="list-group-item">
+              <p class="card-text">BBQ Chicken with carrots, diced onions and crispy lettuce wrapped in soft Tortilla</p>
+            </li>
+          </ul>
+
+        </div>
       </div>
-      <img src="Images\BBQ-Chicken.jpg" class="card-img-top DeliveryCar" alt="...">
-      <div class="card-body">
 
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">
-            <h5 class="heading-lg">R x</h5>
-          </li>
-          <li class="list-group-item">
-            <p class="card-text">BBQ Chicken with carrots, diced onions and crispy lettuce wrapped in soft Tortilla</p>
-          </li>
-        </ul>
+      <!-- Item 2-->
+      <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
+        <div class="card-header heading-lg">
+          Chicken Avo Wrap
+        </div>
+        <img src="Images\Chicken-Avo.jpg" class="card-img-top Catering" alt="Chicken Avo Wrap Image">
+        <div class="card-body">
 
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h5 class="heading-lg">R x</h5>
+            </li>
+            <li class="list-group-item">
+              <p class="card-text">Chicken and Avocado with cucumber and crispy lettuce wrapped in a soft Tortilla</p>
+            </li>
+          </ul>
+
+        </div>
       </div>
-    </div>
 
-    <!-- Item 2-->
-    <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
-      <div class="card-header heading-lg">
-        Chicken Avo Wrap
+      <!-- Item 3-->
+      <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
+        <div class="card-header heading-lg">
+          Beef Wrap
+        </div>
+        <img src="Images\Beef-Wraps.jpg" class="card-img-top FoodTrailer" alt="Beef Wrap Image">
+        <div class="card-body">
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h5 class="heading-lg">R x</h5>
+            </li>
+            <li class="list-group-item">
+              <p class="card-text">Beef complemented with tomato and lettuce wrapped in a soft Tortilla</p>
+            </li>
+          </ul>
+
+        </div>
       </div>
-      <img src="Images\Chicken-Avo.jpg" class="card-img-top Catering" alt="Chicken Avo Wrap">
-      <div class="card-body">
 
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">
-            <h5 class="heading-lg">R x</h5>
-          </li>
-          <li class="list-group-item">
-            <p class="card-text">Chicken and Avocado with cucumber and crispy lettuce wrapped in a soft Tortilla</p>
-          </li>
-        </ul>
+      <!-- Item 4 -->
+      <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
+        <div class="card-header heading-lg">
+          Spicy Chicken Slider
+        </div>
+        <img src="Images\Slider.jpg" class="card-img-top FoodSubscription" alt="Slider Image">
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h5 class="heading-lg">R x</h5>
+            </li>
+            <li class="list-group-item">
+              <p class="card-text">Spicy buttermilk fried chicken with a toasty Bun</p>
+            </li>
+          </ul>
 
+        </div>
       </div>
-    </div>
 
-    <!-- Item 3-->
-    <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
-      <div class="card-header heading-lg">
-        Beef Wrap
-      </div>
-      <img src="Images\Beef-Wraps.jpg" class="card-img-top FoodTrailer" alt="...">
-      <div class="card-body">
-
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">
-            <h5 class="heading-lg">R x</h5>
-          </li>
-          <li class="list-group-item">
-            <p class="card-text">Beef complemented with tomato and lettuce wrapped in a soft Tortilla</p>
-          </li>
-        </ul>
-
-      </div>
-    </div>
-
-    <!-- Item 4 -->
-    <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
-      <div class="card-header heading-lg">
-        Spicy Chicken Slider
-      </div>
-      <img src="Images\Slider.jpg" class="card-img-top FoodSubscription" alt="Slider Image">
-      <div class="card-body">
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">
-            <h5 class="heading-lg">R x</h5>
-          </li>
-          <li class="list-group-item">
-            <p class="card-text">Spicy buttermilk fried chicken with a toasty Bun</p>
-          </li>
-        </ul>
-
-      </div>
     </div>
 
   </div>
@@ -279,74 +291,76 @@
     <a id="breakfast"></a>
   </div>
 
-  <!-- Menu Listing Breakfast-->
-  <h1 class="display-3 text-left menuLabel">Breakfast:</h1>
-
   <!-- Card Breakfast -->
-  <div class="card-group">
+  <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
 
-    <!-- Item 1-->
-    <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
-      <div class="card-header heading-lg">
-        Brekkie Pot
-      </div>
-      <img src="Images\YGhurtPot.JPG" class="card-img-top DeliveryCar" alt="...">
-      <div class="card-body">
+    <!-- Menu Listing Breakfast-->
+    <h1 class="display-3 text-left menuLabel">Breakfast:</h1>
 
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">
-            <h5 class="heading-lg">R x</h5>
-          </li>
-          <li class="list-group-item">
-            <p class="card-text">Yoghurt, fruits and granola layered. The perfect way to start your day!</p>
-          </li>
-        </ul>
+    <div class="card-group">
 
-      </div>
+      <!-- Item 1-->
+      <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
+        <div class="card-header heading-lg">
+          Brekkie Pot
+        </div>
+        <img src="Images\YGhurtPot.JPG" class="card-img-top DeliveryCar" alt="Mangoe Pot Image">
+        <div class="card-body">
 
-    </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h5 class="heading-lg">R x</h5>
+            </li>
+            <li class="list-group-item">
+              <p class="card-text">Yoghurt, fruits and granola layered. The perfect way to start your day!</p>
+            </li>
+          </ul>
 
-    <!-- Item 2-->
-    <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
-      <div class="card-header heading-lg">
-        Pancakes
-      </div>
-      <img src="Images\Pancakes.JPG" class="card-img-top Catering" alt="...">
-      <div class="card-body">
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">
-            <h5 class="heading-lg">R x</h5>
-          </li>
-          <li class="list-group-item">
-            <p class="card-text">Pancakes topped with Ice Cream and Blue Berries</p>
-          </li>
-        </ul>
-
-      </div>
-    </div>
-
-    <!-- Item 3-->
-    <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
-      <div class="card-header heading-lg">
-        Toastie Omlette
-      </div>
-      <img src="Images\Toastie-Omlette.jpg" class="card-img-top FoodTrailer" alt="...">
-      <div class="card-body">
-
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">
-            <h5 class="heading-lg">R x</h5>
-          </li>
-          <li class="list-group-item">
-            <p class="card-text">Toastie Omlette finished with Peppers and Bacon bits</p>
-          </li>
-        </ul>
+        </div>
 
       </div>
 
-    </div>
+      <!-- Item 2-->
+      <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
+        <div class="card-header heading-lg">
+          Pancakes
+        </div>
+        <img src="Images\Pancakes.JPG" class="card-img-top Catering" alt="Pancaked Image">
+        <div class="card-body">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h5 class="heading-lg">R x</h5>
+            </li>
+            <li class="list-group-item">
+              <p class="card-text">Pancakes topped with Ice Cream and Blue Berries</p>
+            </li>
+          </ul>
 
-    <!-- Item 4
+        </div>
+      </div>
+
+      <!-- Item 3-->
+      <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
+        <div class="card-header heading-lg">
+          Toastie Omlette
+        </div>
+        <img src="Images\Toastie-Omlette.jpg" class="card-img-top FoodTrailer" alt="Toastie Omlette Image">
+        <div class="card-body">
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h5 class="heading-lg">R x</h5>
+            </li>
+            <li class="list-group-item">
+              <p class="card-text">Toastie Omlette finished with Peppers and Bacon bits</p>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+      <!-- Item 4
     <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
       <div class="card-header heading-lg">
         Item 4
@@ -367,44 +381,49 @@
 -->
 
 
-  </div>
-
-  <!-- Drinks Anchor-->
-  <div>
-    <a id="drinks"></a>
-  </div>
-
-  <!-- Menu Listing Drinks-->
-  <h1 class="display-3 text-left menuLabel">Drinks:</h1>
-
-  <!-- Card Group Drinks-->
-  <div class="card-group">
-
-    <!-- Item 1-->
-    <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
-      <div class="card-header heading-lg">
-        Gemere
-      </div>
-      <img src="Images\bottle-ex.png" style="background-color: #BC6FF1;" class="card-img-top DeliveryCar" alt="Bottle Image">
-      <div class="card-body">
-
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">
-            <h5 class="heading-lg">Size Dependent</h5>
-          </li>
-          <li class="list-group-item">
-            <p class="card-text">Small R8</p>
-            <p class="card-text">Medium R10</p>
-            <p class="card-text">Glass Bottle Large R30</p>
-          </li>
-        </ul>
-
-
-      </div>
-
     </div>
 
-    <!-- Item 2
+
+    <!-- Drinks Anchor-->
+    <div>
+      <a id="drinks"></a>
+    </div>
+
+
+
+    <!-- Card Drinks-->
+    <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="600">
+
+      <!-- Menu Listing Drinks-->
+      <h1 class="display-3 text-left menuLabel">Drinks:</h1>
+
+      <div class="card-group">
+
+        <!-- Item 1-->
+        <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
+          <div class="card-header heading-lg">
+            Gemere
+          </div>
+          <img src="Images\bottle-ex.png" style="background-color: #BC6FF1;" class="card-img-top DeliveryCar" alt="Gemere\ Bottle-ex Image">
+          <div class="card-body">
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <h5 class="heading-lg">Size Dependent</h5>
+              </li>
+              <li class="list-group-item">
+                <p class="card-text">Small R8</p>
+                <p class="card-text">Medium R10</p>
+                <p class="card-text">Glass Bottle Large R30</p>
+              </li>
+            </ul>
+
+
+          </div>
+
+        </div>
+
+        <!-- Item 2
     <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
       <div class="card-header heading-lg">
         Item 2
@@ -426,7 +445,7 @@
     </div>
     -->
 
-    <!-- Item 3
+        <!-- Item 3
     <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
       <div class="card-header heading-lg">
         Item 3
@@ -449,7 +468,7 @@
     </div>
 -->
 
-    <!-- Item 4
+        <!-- Item 4
     <div class="card card text-bg-dark mb-3 text-center" style="width: 20%;">
       <div class="card-header heading-lg">
         Item 4
@@ -470,141 +489,147 @@
     </div>
 -->
 
-  </div>
-
-
-  <!-- Break between Form and Footer -->
-  <div>
-    <br>
-    <br>
-  </div>
-
-  <!-- Footer -->
-  <footer class="text-center text-lg-start bg-light text-muted">
-    <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-      <!-- Left -->
-      <div class="me-5 d-none d-lg-block">
-        <span class="heading-lg">Join the Peeps on the socials!</span>
       </div>
-      <!-- Left -->
 
-      <!-- Right -->
-      <div class="col-md-6 text-Right">
-        <a href="https://www.instagram.com/peeps__sa/" style="margin-Right:30px;" class="btn btn-dark" tabindex="-1" role="button" aria-disabled="true">Instagram</a>
-        <a href="https://www.facebook.com/" class="btn btn-dark" tabindex="-1" role="button" aria-disabled="true">Facebook</a>
+
+      <!-- Break between Form and Footer -->
+      <div>
+        <br>
+        <br>
       </div>
-      <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
 
-    <!-- Section: Links  -->
-    <section class="">
-      <div class="container text-center text-md-start mt-5">
-        <!-- Grid row -->
-        <div class="row mt-3">
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4" style="color:#52057B;">
-              Peeps Food
-            </h6>
-            <p>
-              The Peoples Food
-            </p>
+      <!-- Footer -->
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span class="heading-lg">Join the Peeps on the socials!</span>
           </div>
-          <!-- Grid column -->
+          <!-- Left -->
 
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Menu
-            </h6>
-            <p>
-              <a href="menu.html#hotPlates" class="text-reset">Hotplates</a>
-            </p>
-            <p>
-              <a href="menu.html#breakfast" class="text-reset">Breakfast</a>
-            </p>
-            <p>
-              <a href="menu.html#wraps" class="text-reset">Wraps</a>
-            </p>
-            <p>
-              <a href="menu.html#drinks" class="text-reset">Drinks</a>
-            </p>
+          <!-- Right -->
+          <div class="col-md-6 text-Right">
+            <a href="https://www.instagram.com/peeps__sa/" style="margin-Right:30px;" class="btn btn-dark" tabindex="-1" role="button" aria-disabled="true">Instagram</a>
+            <a href="https://www.facebook.com/" class="btn btn-dark" tabindex="-1" role="button" aria-disabled="true">Facebook</a>
           </div>
-          <!-- Grid column -->
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
 
-          <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4" style="color:#52057B;">
-              Useful links
-            </h6>
-            <p>
-              <a href="services.html#delivery" class="text-reset">Delivery</a>
-            </p>
-            <p>
-              <a href="services.html#catering" class="text-reset">Catering</a>
-            </p>
-            <p>
-              <a href="services.html#foodTruck" class="text-reset">Food Truck</a>
-            </p>
-            <p>
-              <a href="services.html#foodSubscription" class="text-reset">Food Subscription</a>
-            </p>
-          </div>
-          <!-- Grid column -->
-
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Contact Us
-            </h6>
-            <div class="mapouter">
-              <div class="gmap_canvas"><iframe width="300" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=Johanesburg&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                  href="https://putlocker-is.org"></a><br>
-                <style>
-                  .mapouter {
-                    position: relative;
-                    text-align: right;
-                    height: 200px;
-                    width: 300px;
-                  }
-                </style><a href="https://www.embedgooglemap.net">using google map on website</a>
-                <style>
-                  .gmap_canvas {
-                    overflow: hidden;
-                    background: none !important;
-                    height: 200px;
-                    width: 300px;
-                  }
-                </style>
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4" style="color:#52057B;">
+                  Peeps Food
+                </h6>
+                <p>
+                  The Peoples Food
+                </p>
               </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Menu
+                </h6>
+                <p>
+                  <a href="menu.html#hotPlates" class="text-reset">Hotplates</a>
+                </p>
+                <p>
+                  <a href="menu.html#breakfast" class="text-reset">Breakfast</a>
+                </p>
+                <p>
+                  <a href="menu.html#wraps" class="text-reset">Wraps</a>
+                </p>
+                <p>
+                  <a href="menu.html#drinks" class="text-reset">Drinks</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4" style="color:#52057B;">
+                  Useful links
+                </h6>
+                <p>
+                  <a href="services.html#delivery" class="text-reset">Delivery</a>
+                </p>
+                <p>
+                  <a href="services.html#catering" class="text-reset">Catering</a>
+                </p>
+                <p>
+                  <a href="services.html#foodTruck" class="text-reset">Food Truck</a>
+                </p>
+                <p>
+                  <a href="services.html#foodSubscription" class="text-reset">Food Subscription</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Contact Us
+                </h6>
+                <div class="mapouter">
+                  <div class="gmap_canvas"><iframe width="300" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=Johanesburg&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0"
+                      marginwidth="0"></iframe><a href="https://putlocker-is.org"></a><br>
+                    <style>
+                      .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 200px;
+                        width: 300px;
+                      }
+                    </style><a href="https://www.embedgooglemap.net">using google map on website</a>
+                    <style>
+                      .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 200px;
+                        width: 300px;
+                      }
+                    </style>
+                  </div>
+                </div>
+                <a href="mailto:cashmoneytebza@gmail.com">Email: cashmoneytebza@gmail.com</a>
+                <p><a href="tel:0763346792">Call us on 076 334 6792</a></p>
+                <p>Monday - Friday: 8am - 5pm</p>
+              </div>
+              <!-- Grid column -->
             </div>
-            <a href="mailto:cashmoneytebza@gmail.com">Email: cashmoneytebza@gmail.com</a>
-            <p><a href="tel:0763346792">Call us on 076 334 6792</a></p>
-            <p>Monday - Friday: 8am - 5pm</p>
+            <!-- Grid row -->
           </div>
-          <!-- Grid column -->
+
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: #BC6FF1;">
+          © 2022 Copyright:
+          <a class="text-reset fw-bold" href="index.html">PEEPS FOOD, </a>
+          <a class="text-reset fw-bold" href="https://sfheadshot.github.io/cv/">SFHeadshot</a>
         </div>
-        <!-- Grid row -->
-      </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
 
-    </section>
-    <!-- Section: Links  -->
+      <!-- Animation Initilization -->
 
-    <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: #BC6FF1;">
-      © 2022 Copyright:
-      <a class="text-reset fw-bold" href="index.html">PEEPS FOOD, </a>
-      <a class="text-reset fw-bold" href="https://sfheadshot.github.io/cv/">SFHeadshot</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
+      <script>
+        AOS.init();
+      </script>
 
 </body>
 
