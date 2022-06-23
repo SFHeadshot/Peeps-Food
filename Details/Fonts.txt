@@ -1,3 +1,6 @@
 Ubuntu: Heading
 Noto Sans: Sub Heading
 Other 2 for Paragraphs
+
+Colour Schemes + White
+https://colorhunt.co/palette/00000052057b892cdcbc6ff1
