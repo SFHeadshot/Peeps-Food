@@ -13,10 +13,19 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   <title>PEEPS Food</title>
 </head>
 
 <body>
+
+<!-- Animation Initilization -->
+
+  <script>
+    AOS.init();
+  </script>
 
   <!-- Header Container-->
   <div class="container">
@@ -121,6 +130,9 @@
 
 
   <!-- Card Group -->
+
+<div data-aos="fade-right" data-aos-delay="300">
+
   <div class="card-group">
 
     <!-- Home Delivery-->
@@ -128,7 +140,7 @@
       <div class="card-header heading-lg">
         Home Delivery
       </div>
-      <img src="Images\DeliveryCar.png" class="card-img-top DeliveryCar" alt="...">
+      <img src="Images\DeliveryCar.png" class="card-img-top DeliveryCar" alt="Home Delivery Image">
       <div class="card-body">
 
         <ul class="list-group list-group-flush">
@@ -145,12 +157,13 @@
 
     </div>
 
+
     <!-- Catering-->
     <div class="card text-bg-dark mb-3 text-center" style="width: 18rem;">
       <div class="card-header heading-lg">
         Catering
       </div>
-      <img src="Images\Catering.png" class="card-img-top Catering" alt="...">
+      <img src="Images\Catering.png" class="card-img-top Catering" alt="Catering Image">
       <div class="card-body">
 
         <ul class="list-group list-group-flush">
@@ -171,7 +184,7 @@
       <div class="card-header heading-lg">
         Food Trailer
       </div>
-      <img src="Images\FoodTrailer.png" class="card-img-top FoodTrailer" alt="...">
+      <img src="Images\FoodTrailer.png" class="card-img-top FoodTrailer" alt="Food Trailer Image">
       <div class="card-body">
 
         <ul class="list-group list-group-flush">
@@ -193,7 +206,7 @@
       <div class="card-header heading-lg">
         Food Subscription
       </div>
-      <img src="Images\FoodSubscription.png" class="card-img-top FoodSubscription" alt="...">
+      <img src="Images\FoodSubscription.png" class="card-img-top FoodSubscription" alt="Food Subscription Image">
       <div class="card-body">
 
         <ul class="list-group list-group-flush">
@@ -208,6 +221,8 @@
         <a href="services.html#foodSubscription" class="btn but" style="background-color:#BC6FF1;">Subscription</a>
       </div>
     </div>
+
+  </div>
 
   </div>
 
